@@ -1,6 +1,15 @@
 function memo() {
   console.log("Hello World");
   console.log("20"+"15");
+// 変数lengthは半径
+let length = 5;
+
+// 変数lengthの半径の値を出力
+console.log(length);
+
+// 変数lengthを用いて、円の面積を出力
+console.log(length*length*3);
+
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
     const formData = new FormData(document.getElementById("form"));
