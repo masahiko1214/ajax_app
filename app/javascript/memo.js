@@ -23,6 +23,29 @@ console.log("こんにちは、"+ name + "さん");
 // 違う場合にtrueは !== 同じで真偽値true 
 
 
+//条件分岐で短調になる時はswitch文を使う、またbreak；して条件から抜けるのを忘れない
+
+const rank = 5;
+
+switch (rank) {
+  case 1:
+    console.log("金メダルです！");
+    break;
+  case 2:
+    console.log("銀メダルです！");
+    break;
+  case 3:
+    console.log("銅メダルです！");
+    break;
+  // defaultの処理を追加してください
+  default:
+  console.log("メダルはありません");
+  break;
+  
+}
+
+
+
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
     const formData = new FormData(document.getElementById("form"));
