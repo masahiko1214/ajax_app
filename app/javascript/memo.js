@@ -1,5 +1,6 @@
 function memo() {
   console.log("Hello World");
+  console.log("20"+"15");
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
     const formData = new FormData(document.getElementById("form"));
