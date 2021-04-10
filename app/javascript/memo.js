@@ -18,6 +18,11 @@ console.log(`こんにちは、${name}さん`);
 //その他の方法としては+で繋ぐ
 console.log("こんにちは、"+ name + "さん"); 
 
+//javascriptにおいて比較演算子は
+// 同じ場合は === 三つ使う点に注意、同じで真偽値true 
+// 違う場合にtrueは !== 同じで真偽値true 
+
+
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
     const formData = new FormData(document.getElementById("form"));
