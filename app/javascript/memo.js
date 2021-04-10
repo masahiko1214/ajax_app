@@ -1,4 +1,6 @@
 function memo() {
+  //ここから復習
+
   console.log("Hello World");
   console.log("20"+"15");
 // 変数lengthは半径
@@ -9,6 +11,12 @@ console.log(length);
 
 // 変数lengthを用いて、円の面積を出力
 console.log(length*length*3);
+
+const name = "にんじゃわんこ"
+//注意 ${name}を変数として使う場合はバッククォーテーションを使う必要がある
+console.log(`こんにちは、${name}さん`); 
+//その他の方法としては+で繋ぐ
+console.log("こんにちは、"+ name + "さん"); 
 
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
