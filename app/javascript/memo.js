@@ -48,6 +48,14 @@ for (let number=1 ;number<=100; number++) {
 
 }
 
+const animals = ["dog", "cat", "sheep"];
+
+// for文を用いて、配列をそれぞれ取り出す
+for (let i=0 ; i < 3 ; i++ ){
+  console.log(animals[i]);
+}
+
+
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
     const formData = new FormData(document.getElementById("form"));
