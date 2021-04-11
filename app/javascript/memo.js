@@ -66,6 +66,11 @@ console.log(characters[0]);
 // charactersの2つ目の要素の「name」に対応する値
 console.log(characters[1].name);
 
+// =>はアロー関数、const greet = function() { と同じ
+const greet = () =>{
+  console.log("こんにちは！");
+}
+
 
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
