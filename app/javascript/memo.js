@@ -55,6 +55,17 @@ for (let i=0 ; i < 3 ; i++ ){
   console.log(animals[i]);
 }
 
+const characters = [
+  {name: "にんじゃわんこ", age: 14},
+  {name: "ひつじ仙人", age: 1000}
+];
+
+// charactersの1つ目の要素をコンソールに出力
+console.log(characters[0]);
+
+// charactersの2つ目の要素の「name」に対応する値
+console.log(characters[1].name);
+
 
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
