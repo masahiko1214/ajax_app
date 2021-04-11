@@ -43,8 +43,10 @@ switch (rank) {
   break;
   
 }
+// for文は ( 変数の定義 ;条件式  ;変数の更新 )
+for (let number=1 ;number<=100; number++) {
 
-
+}
 
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
