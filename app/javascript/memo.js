@@ -71,6 +71,13 @@ const greet = () =>{
   console.log("こんにちは！");
 }
 
+const animal = {
+  name:"レオ",
+  age:3, 
+  greet:() => {
+    console.log("こんにちは");
+  }
+};
 
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
